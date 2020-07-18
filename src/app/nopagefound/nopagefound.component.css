@@ -76,7 +76,7 @@
     bottom: 0;
     width: 100%;
     height: 20px;
-    background: url(../../../assets/images/404/grass.png);
+    background: url(../../assets/images/404/grass.png);
     background-position: bottom;
     animation: animateGrass 0.2s linear infinite;
 }
