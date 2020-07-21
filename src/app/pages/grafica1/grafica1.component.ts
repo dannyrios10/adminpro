@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
+
 
 @Component({
   selector: 'app-grafica1',
@@ -6,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class Grafica1Component implements OnInit {
+export class Grafica1Component  {
 
-  constructor() { }
+label1: string[] = ['Label1', 'Label2', 'Label3'];
 
-  ngOnInit(): void {
-  }
+data1 = [Math.round(Math.random()*500), Math.round(Math.random()*500), Math.round(Math.random()*500)]
+data2 = [Math.round(Math.random()*500), Math.round(Math.random()*500), Math.round(Math.random()*500)]
+data3 = [Math.round(Math.random()*500), Math.round(Math.random()*500), Math.round(Math.random()*500)]
+data4 = [Math.round(Math.random()*500), Math.round(Math.random()*500), Math.round(Math.random()*500)]
 
 }
